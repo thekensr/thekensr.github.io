@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #29aae2
+}
+
+body {
+    font-family: 'Mulish';
+    font-size: 100%;
+    background-color: #f5f5f5;
+}
+
+.vlnka1 {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    width: 40%;
+    height: 15%;
+    z-index: -1;
+}
+
+.vlnka2 {
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    width: 20%;
+    height: 60%;
+    z-index: -1;
+}
+
+@media screen and (max-width: 600px) {
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content>h2 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content>h3 {
+        font-size: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vlnka1 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 90%;
+        height: 20%;
+        z-index: -1;
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+.content h3 {
+    color: #29aae3;
+    font-size: 3rem;
+    text-shadow: 0.1rem 0.1rem 0.1rem #0a91bf;
+}
+
+.content h2 {
+    color: #808080;
+    padding-left: 3rem;
+}
+
+.content>#icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5rem;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content>#icons>.icon {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background-color: white;
+    border-radius: 1rem;
+    width: 13rem;
+    height: 13rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    margin: 1rem;
+    box-shadow: 1rem 1rem 2rem #d0d0d0;
+    align-items: center;
+    justify-content: start;
+    text-align: left;
+}
+
+.content>#icons>.icon>.logo>img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6rem;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.content>#icons>.icon>p {
+    margin-left: auto;
+    margin-right: auto;
+    color: #808080;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+.content>.headline {
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
