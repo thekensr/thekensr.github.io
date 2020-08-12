@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PREPRAV TO! - Sťahovanie rýchlo a bezpečne</title>
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+</head>
+
+<body>
+    <!--HEADER-->
+    <link rel="stylesheet" type="text/css" href="header.css">
+
+    <img class="vlnka1" src="images/vlnka3.png">
+
+    <div class="topnav" id="navbar" style="position:sticky;">
+        <a href="#home" class="active">DOMOV</a>
+        <a href="#news">O NÁS</a>
+        <a href="#kontakt">KONTAKT</a>
+        <a href="#about">REFERENCIE</a>
+        <a href="mailto:example@example.com" style="float: right;">example@example.com</a>
+        <a href="tel:+421 100 100" style="float: right;">+421 100 100 100</a>
+        <a href="javascript:void(0);" style="font-size:1rem;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!--MAIN-->
+
+    <link rel="stylesheet" type="text/css" href="content.css">
+    <link rel="stylesheet" type="text/css" href="kontakt.css">
+
+    <div id="formular">
+        <div class="window">
+            <div class="udaje">
+                <h1>SÍDLO</h1>
+                <h2>Pražská 11</h2>
+                <h2>800 00 Bratislava</h2>
+                <h1>KONTAKT</h1>
+                <h2><a href="tel:+421910441444">+421 910 441 444</a></h2>
+                <h2><a href="mailto:prepravto.info@gmail.com">prepravto.info@gmail.com</a></h2>
+                <h1>FAKTURACNE UDAJE</h1>
+                <h2>ICO: xxx</h2>
+                <h2>DIC: xxx</h2>
+                <button><a href="tel:+421910441444">Zavolajte nam!</a></button>
+            </div>
+            <div id="map">
+                <iframe scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=auto&amp;hl=en&amp;q=Prazska%2011%20Bratislava+(Preprav%20To)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                    width="100%" height="auto" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <!--FOOTER-->
+    <link rel="stylesheet" type="text/css" href="footer.css">
+    <div id="footer">
+        <p>Copyright 2020 © Preprav.to</p>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navbar");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
