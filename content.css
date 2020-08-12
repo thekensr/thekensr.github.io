@@ -97,6 +97,11 @@ body {
     align-items: center;
     justify-content: start;
     text-align: left;
+    scrollbar-width: none;
+}
+
+.content>#icons>.icon:hover {
+    scrollbar-width: thin;
 }
 
 .content>#icons>.icon>.logo>img {
