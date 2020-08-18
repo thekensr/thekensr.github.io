@@ -12,10 +12,10 @@
 <body>
     <!--HEADER-->
     <link rel="stylesheet" type="text/css" href="header.css">
-    <img class="vlnka1" src="images/vlnka3.png">
     <div class="topnav" id="navbar" style="position:sticky;">
         <a href="#home" class="active">DOMOV</a>
         <a href="kontakt.html">KONTAKT</a>
+        <a href="sluzby.html">SLUŽBY</a>
         <a href="mailto:example@example.com" style="float:right;">prepravto.info@gmail.com</a>
         <a href="tel:+421 100 100" style="float:right;">+421 910 441 444</a>
         <a href="javascript:void(0);" style="font-size:1rem;" class="icon" onclick="myFunction()">&#9776;</a>
@@ -31,54 +31,46 @@
         </div>
 
         <div id="icons">
-            <div class="icon">
+            <div class="icon" onclick="location.href='sluzby.html';">
                 <div class="logo">
                     <img src="images/vypratavanie.png">
                 </div>
                 <p>
-                    Ponúkame komplexné sťahovacie služby spojené s balením nábytku, montážou a demontážou. Naše
-                    dlhoročné skúsenosti ručia za náš profesionálny a ohľaduplný prístup k Vám a vašemu majetku.
+                    Komplexné prepravné, vypratávacie a sťahovacie služby
                 </p>
             </div>
-            <div class="icon">
+            <div class="icon" onclick="location.href='sluzby.html';">
                 <div class="logo">
                     <img src="images/balik.png">
                 </div>
                 <p>
-                    Expresná preprava Vašich zásielok, tovaru, nábytku alebo zariadenia úplne pre všetkých. Váš tovar
-                    naložíme do našej dodávky a následne vyložíme na určenom mieste. V prípade potreby Váš tovar aj
-                    zabalíme.
+                    Preprava motocyklov, skútrov a štvorkoliek
                 </p>
             </div>
-            <div class="icon">
+            <div class="icon" onclick="location.href='sluzby.html';">
                 <div class="logo">
                     <img src="images/preprava.png">
                 </div>
                 <p>
-                    Poskytujeme medzinárodnú dopravu v rámci EÚ aj mimo EÚ. Samozrejmosťou je CMR poistenie a GPS
-                    tracking vášho tovaru 24 hodín denne počas celého transportu . Komfortne a z pohodlia domova
-                    sledujete celú cestu Vašeho nákladu od štartu až do cieľa.
+                    Medzinárodnú dopravu v rámci EÚ aj mimo EÚ
                 </p>
             </div>
-            <div class="icon">
+            <div class="icon" onclick="location.href='sluzby.html';">
                 <div class="logo">
                     <img src="images/stena.png">
                 </div>
                 <p>
-                    Dovoz Vášho tovaru z obchodných centier (IKEA, SCONTO, OBI...). Samozrejmosťou je aj jeho následné
-                    vyloženie na Vami určené miesto a v prípade záujmu aj montáž.
+                    Dovoz tovaru z obchodných centier
                 </p>
             </div>
-        </div>
-        <div class="icon">
-
         </div>
     </div>
     </div>
     <!--FOOTER-->
     <link rel="stylesheet" type="text/css" href="footer.css">
+    <img class="vlnka1" src="images/vlnka3.png">
     <div id="footer">
-        <p>Copyright 2020 © Preprav.to</p>
+        <p style="color:white;">Copyright 2020 © Preprav.to</p>
     </div>
     <script>
         function myFunction() {
@@ -90,6 +82,7 @@
             }
         }
     </script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 
 </html>
