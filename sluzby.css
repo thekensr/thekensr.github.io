@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin: 2rem;
+    margin: 4rem;
     padding: 3rem;
     padding-top: 1rem;
     margin-bottom: 4rem;
@@ -22,7 +22,7 @@
 #sluzby p {
     color: #808080;
     padding-left: 3rem;
-    padding-right: 3rem;
+    padding-right: 10rem;
     padding-top: 2rem;
     font-size: 1.1rem
 }
@@ -43,5 +43,34 @@
 }
 
 #sluzby>.paragraph img {
-    max-width: 450px;
+    width: 100%;
+}
+
+#sluzby>.bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+#sluzby>.bottom p {
+    font-size: 1.5rem;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#sluzby>.bottom button {
+    box-shadow: 1rem 1rem 1rem #d0d0d0;
+    border: none;
+    background-color: #29aae2;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
