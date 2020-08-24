@@ -2,7 +2,7 @@
     text-align: center;
     font-size: 1.4rem;
     margin: 1.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 #sluzby {
@@ -16,7 +16,6 @@
     margin: 4rem;
     padding: 3rem;
     padding-top: 1rem;
-    margin-bottom: 4rem;
 }
 
 #sluzby p {
@@ -68,9 +67,63 @@
     background-color: #29aae2;
     border-radius: 1rem;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 1rem;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (max-width:600px) {
+
+    #sluzby {
+        margin: 2rem;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    #sluzby>.paragraph {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #sluzby p {
+        padding: 0;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    #sluzby>.paragraph h1 {
+        padding: 0;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    #sluzby>.paragraph img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #sluzby>.bottom {
+        margin-bottom: 2rem;
+    }
+
+    #sluzby>.bottom p {
+        text-align: center;
+    }
+
+    #sluzby>.bottom button {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    #ponuka {
+        margin: 1rem;
+        font-size: 1.2rem;
+    }
 }

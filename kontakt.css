@@ -13,9 +13,8 @@
 }
 
 #formular .window {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
     background-color: white;
     box-shadow: 1rem 1rem 2rem #d0d0d0;
     border-radius: 1rem;
@@ -66,4 +65,36 @@
 
 .udaje button>a {
     color: white
+}
+
+@media screen and (max-width: 600px) {
+
+    #formular .window {
+        margin: 2rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .window h1 {
+        font-size: 1.3rem;
+    }
+
+    .udaje a p {
+        font-size: 1.3rem;
+    }
+
+    .udaje button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #map {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    #map iframe {
+        border-radius: 0rem 0rem 1rem 1rem
+    }
+
 }
