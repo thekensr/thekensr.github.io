@@ -16,6 +16,10 @@ body {
     background-color: #f5f5f5;
 }
 
+#seo>h1 {
+    display: none;
+}
+
 .vlnka1 {
     position: absolute;
     bottom: 0%;
@@ -104,6 +108,11 @@ body {
     top: 95%;
     left: 5rem;
     z-index: -1;
+}
+
+#footer>p.home-footer {
+    color: white;
+    z-index: 2;
 }
 
 * {
@@ -344,9 +353,17 @@ svg {
     margin-right: auto;
 }
 
+.topnav>.media-icon {
+    float: right;
+}
+
+#js-icon {
+    float: right;
+}
+
 /* Optimalizacia pre mobily */
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 800px) {
     .content {
         display: grid;
         grid-template-columns: 1fr;
