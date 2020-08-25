@@ -89,6 +89,7 @@ svg {
     display: block;
 }
 
+
 @media screen and (max-width: 600px) {
 
     .topnav {
@@ -104,9 +105,7 @@ svg {
         float: right;
         display: inline-block;
     }
-}
 
-@media screen and (max-width: 600px) {
     .topnav.responsive {
         position: static;
     }
