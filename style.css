@@ -20,6 +20,16 @@ body {
     display: none;
 }
 
+
+#seo>h2 {
+    display: none;
+}
+
+
+#seo>h3 {
+    display: none;
+}
+
 .vlnka1 {
     position: absolute;
     bottom: 0%;
@@ -359,6 +369,10 @@ svg {
 
 #js-icon {
     float: right;
+}
+
+#like {
+    display: none;
 }
 
 /* Optimalizacia pre mobily */
