@@ -154,7 +154,7 @@ a:hover>ion-icon {
     overflow: hidden;
     background-color: white;
     box-shadow: rgb(197, 195, 195) 0.25rem 0.5rem 0.25rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     z-index: 2;
 }
 
