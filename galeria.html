@@ -10,6 +10,7 @@
     <meta name="HandheldFriendly" content="true">
     <meta name="keywords" content="sťahovanie preprava dovoz motorka bratislava vypratavanie kurier sluzby">
     <meta name="description" content="Preprava a sťahovanie rýchlo a bezpečne, vždy ku spokojnosti zákazníka.">
+    <meta charset="utf-8">
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -30,12 +31,24 @@
 
 <body>
     <!--HEADER-->
+    <div id="seo">
+        <h1>Preprava</h1>
+        <h1>Stahovanie</h1>
+        <h2>Sťahovanie</h2>
+        <h3>Bratislava</h3>
+        <h2>stahovanie</h2>
+        <h1>praprava tovaru</h1>
+        <h2>stahovanie kancelarii</h2>
+        <h1>stahovanie bytov</h1>
+        <h1>doprava</h1>
+        <h2>Doprava</h2>
+    </div>
     <div class="topnav" id="navbar">
-        <a href="#" class="imghref"><img src="images/logo_main.jpg" id="logo"></a>
-        <a href="#home" class="active">DOMOV</a>
+        <a href="index.html" class="imghref"><img src="images/logo_main.jpg" id="logo"></a>
+        <a href="index.html">DOMOV</a>
         <a href="kontakt.html">KONTAKT</a>
         <a href="sluzby.html">SLUŽBY</a>
-        <a href="galeria.html">GALÉRIA</a>
+        <a href="galeria.html" class="active">GALÉRIA</a>
         <a href="tel:+421910441444" class="media-icon">
             <ion-icon name="call-outline"></ion-icon>
         </a>
@@ -51,74 +64,24 @@
         <a href="javascript:void(0);" id="js-icon" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
     <!--MAIN-->
-    <div class="content">
-        <div class="headline">
-            <img src="images/logo.png" alt="logo">
-            <h2>BEZPEČNE</h2>
-            <h2>SPOĽAHLIVO</h2>
-            <h2>VČAS</h2>
-            <div id="seo">
-                <h1>Preprava</h1>
-                <h1>Stahovanie</h1>
-                <h2>Sťahovanie</h2>
-                <h3>Bratislava</h3>
-                <h2>stahovanie</h2>
-                <h1>praprava tovaru</h1>
-                <h2>stahovanie kancelarii</h2>
-                <h1>stahovanie bytov</h1>
-                <h1>doprava</h1>
-                <h2>Doprava</h2>
-            </div>
-        </div>
+    <link href='galeria.css' rel='stylesheet' type='text/css'>
+    <div id="galery">
+        <img src="images/tinified/dodavka1.jpg" class="galery-image">
+        <img src="images/tinified/dodavka2.jpg" class="galery-image">
+        <img src="images/tinified/dodavka2.jpg" class="galery-image">
+        <img src="images/tinified/dodavka3.jpg" class="galery-image">
+        <img src="images/tinified/dodavka1.jpg" class="galery-image">
+        <img src="images/tinified/dodavka1.jpg" class="galery-image">
+        <img src="images/tinified/dodavka1.jpg" class="galery-image">
+        <img src="images/tinified/dodavka2.jpg" class="galery-image">
+        <img src="images/tinified/dodavka2.jpg" class="galery-image">
+        <img src="images/tinified/dodavka2.jpg" class="galery-image">
+    </div>
 
-        <div id="icons">
-            <div class="icon" onclick="location.href='sluzby.html#redirect1';">
-                <div class="logo">
-                    <img src="images/vypratavanie.png" alt="vypratavanie">
-                </div>
-                <p>
-                    Komplexné sťahovacie služby
-                </p>
-                <p>
-                    Vypratávanie bytov a nebytových priestorov
-                </p>
-            </div>
-            <div class="icon" onclick="location.href='sluzby.html#redirect2';">
-                <div class="logo">
-                    <img src="images/motorka.png" alt="prevoz motoriek">
-                </div>
-                <p>
-                    Preprava motocyklov, skútrov a štvorkoliek
-                </p>
-            </div>
-            <div class="icon" onclick="location.href='sluzby.html#redirect3';">
-                <div class="logo">
-                    <img src="images/preprava.png" alt="preprava">
-                </div>
-                <p>
-                    Vnútroštátna a medzinárodná autodoprava v rámci EÚ do 3.5t
-                </p>
-            </div>
-            <div class="icon" onclick="location.href='sluzby.html#redirect4';">
-                <div class="logo">
-                    <img src="images/stena.png" alt="dovoz tovaru">
-                </div>
-                <p>
-                    Dovoz tovaru a nábytku
-                </p>
-                <p>
-                    Kuriérska služba v rámci BA
-                </p>
-            </div>
-        </div>
-    </div>
-    </div>
     <!--FOOTER-->
-    <img class="vlnka1" src="images/vlnka3.png" alt="vlnka">
     <div id="footer">
-        <p class="home-footer">Copyright 2020 © Preprav.to</p>
+        <p>Copyright 2020 © Preprav.to</p>
     </div>
-
     <div id="like" class="fb-like" data-href="https://www.facebook.com/preprav.to" data-width="50"
         data-layout="standard" data-action="like" data-size="large" data-share="false"></div>
 
@@ -133,6 +96,7 @@
         }
     </script>
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v8.0"
         nonce="twoCmAuf"></script>
