@@ -384,6 +384,26 @@ svg {
     display: none
 }
 
+#galery {
+    margin: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#galery>img {
+    width: 25rem;
+    height: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
 @media screen and (max-width:800px) {
     .content {
         display: grid;
@@ -584,5 +604,24 @@ svg {
         height: 3.7rem;
         width: auto;
         float: left;
+    }
+
+    #galery {
+        margin: 1rem;
+        margin-top: 1.5rem;
+        padding: 1rem;
+        padding-top: 1.5rem;
+        background-color: white;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #galery>img {
+        width: 22rem;
+        height: 15rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
     }
 }
