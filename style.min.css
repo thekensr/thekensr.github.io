@@ -186,6 +186,17 @@ svg {
     margin-bottom: auto
 }
 
+.social {
+    display: block;
+    float: right;
+
+}
+
+.social.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
 .active {
     background-color: whitesmoke
 }
@@ -370,10 +381,6 @@ svg {
     text-align: center;
     margin-left: auto;
     margin-right: auto
-}
-
-.topnav>.media-icon {
-    float: right
 }
 
 #js-icon {
@@ -623,5 +630,27 @@ svg {
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 1rem;
+    }
+
+    .mobile-opt {
+        display: inline-block;
+    }
+
+    .social {
+        float: left;
+
+    }
+
+    #moveit {
+        margin-top: 3.7rem;
+    }
+
+    .topnav>.social {
+        display: none;
+    }
+
+    .topnav.responsive>.social {
+        display: block;
+
     }
 }

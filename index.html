@@ -27,28 +27,35 @@
         ga('create', 'UA-XXXXX-Y', 'auto');
         ga('send', 'pageview');
     </script>
+    <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
 </head>
 
 <body>
     <!--HEADER-->
     <div class="topnav" id="navbar">
         <a href="#" class="imghref"><img src="images/logo_main.jpg" id="logo"></a>
-        <a href="#home" class="active">DOMOV</a>
+        <a href="#home" class="active" id="moveit">DOMOV</a>
         <a href="kontakt.html">KONTAKT</a>
         <a href="sluzby.html">SLUŽBY</a>
         <a href="galeria.html">GALÉRIA</a>
-        <a href="tel:+421910441444" class="media-icon">
-            <ion-icon name="call-outline"></ion-icon>
-        </a>
-        <a href="mailto:prepravto.io" class="media-icon">
-            <ion-icon name="mail-open-outline"></ion-icon>
-        </a>
-        <a href="https://instagram.com/preprav.to" class="media-icon" target="_blank">
-            <ion-icon name="logo-instagram"></ion-icon>
-        </a>
-        <a href="https://facebook.com/preprav.to" class="media-icon" target="_blank">
-            <ion-icon name="logo-facebook"></ion-icon>
-        </a>
+        <div class="social">
+            <div class="social flexbox">
+                <a href="tel:+421910441444" class="media-icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                </a>
+                <a href="mailto:prepravto.io" class="media-icon">
+                    <ion-icon name="mail-open-outline"></ion-icon>
+                </a>
+                <a href="https://instagram.com/preprav.to" class="media-icon" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://facebook.com/preprav.to" class="media-icon" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </div>
+        </div>
         <a href="javascript:void(0);" id="js-icon" class="icon" onclick="myFunction()">&#9776;</a>
     </div>
     <!--MAIN-->
@@ -133,7 +140,6 @@
             }
         }
     </script>
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v8.0"
         nonce="twoCmAuf"></script>
