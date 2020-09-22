@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #29aae2
+    color: #29aae2;
 }
 
 html {
@@ -329,7 +329,7 @@ svg {
     color: gray;
     padding-left: 3rem;
     padding-right: 3rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
     font-size: 1.1rem
 }
 
@@ -408,6 +408,23 @@ svg {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem
+}
+
+.line-separator {
+    width: 80%;
+    border-top: 1px solid #29aae2;
+    border-bottom: 1px solid #29aae2;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+}
+
+.p-separator {
+    width: 40px;
+    height: 7px;
+    background-color: #29aae2;
+    border: none;
+    margin-left: 3rem;
+    margin-top: 1rem;
 }
 
 @media screen and (max-width:800px) {
@@ -648,5 +665,15 @@ svg {
 
     .topnav.responsive>.social {
         display: block
+    }
+
+    .line-separator {
+        border-radius:0;
+        width: 100%;
+    }
+
+    .p-separator {
+        margin-bottom: 1rem;
+        margin-left: 2rem;
     }
 }
