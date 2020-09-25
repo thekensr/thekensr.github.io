@@ -348,6 +348,10 @@ svg {
     margin-bottom: 3rem
 }
 
+#sluzby>.paragraph.reversed {
+    flex-direction: row-reverse;
+}
+
 #sluzby>.paragraph img {
     max-width: 40rem;
     float: right
@@ -676,4 +680,8 @@ svg {
         margin-bottom: 1rem;
         margin-left: 2rem;
     }
+
+    #sluzby>.paragraph.reversed {
+        flex-direction: column;
+}
 }
