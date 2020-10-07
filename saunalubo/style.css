@@ -5,6 +5,9 @@
     font-size: 15px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 /* Menu style */
 
 #menu {
@@ -67,6 +70,10 @@
     font-size: 1.5rem;
 }
 
+#sluzby p {
+    font-size: 1.2rem;
+}
+
 #sluzby img {
     max-height: 13rem;
     width: auto;
@@ -83,9 +90,10 @@
 }
 
 #info img {
-    padding-left: 7rem;
+    margin-left: 9rem;
     width: 35%;
     height: auto;
+    padding: 2rem 0rem;
 }
 
 #info ul, #info li {
@@ -127,4 +135,65 @@
 #footer h2 {
     color:white;
     margin-bottom: 1rem;
+}
+
+#kontakt {
+    width: 100%;
+    background-color: #4a4543;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#kontakt-panel {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+#kontakt-panel>iframe {
+    border-radius: 8px 0px 0px 8px;
+
+}
+
+#kontakt-panel>.inner-panel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#kontakt-panel>.inner-panel p, #kontakt-panel>.inner-panel a {
+    font-size: 1.5rem;
+}
+
+#kontakt-panel>.inner-panel>.kontakt-container {
+    margin: 0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#kontakt-panel>.inner-panel>.kontakt-container img {
+    height: 4rem;
+    width: auto;
+}
+
+#kontakt-panel>.inner-panel>.kontakt-container p {
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+}
+
+#kontakt-panel>.inner-panel>.kontakt-container a {
+    color: #d77222;
+    text-decoration: none;
+}
+
+#kontakt-panel>.inner-panel>.kontakt-container a:hover {
+    text-decoration: underline;
 }
